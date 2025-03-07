@@ -11,7 +11,7 @@ st.title("Crop Disease Classifier :)")
 st.write("Select a crop and upload an image to detect diseases.")
 
 # Dropdown for crop selection
-crop_options = ["Sorghum", "SugarCane"]  # Add more crops as needed
+crop_options = ["Sorghum", "SugarCane", "Wheat"]  # Add more crops as needed
 selected_crop = st.selectbox("Select Crop", crop_options)
 
 # Define model paths and disease labels for each crop
