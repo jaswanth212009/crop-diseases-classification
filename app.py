@@ -17,7 +17,7 @@ selected_crop = st.selectbox("Select Crop", crop_options)
 # Define model paths and disease labels for each crop
 model_configs = {
     "Sorghum": {
-        "path": r"C:/Users/jboyapati/Desktop/sorghum_classification/sorghum_disease_model.pt",
+        "path": "sorghum_disease_model.pt",
         "labels": [
             "Anthracnose and Red Rot",
             "Cereal Grain molds",
@@ -28,7 +28,7 @@ model_configs = {
         ]
     },
     "SugarCane": {
-        "path": r"C:/Users/jboyapati/Desktop/sorghum_classification/sugarcane_disease_model.pt",  # Update this path
+        "path": "sugarcane_disease_model.pt",  # Update this path
         "labels": [
             "healthy",
             "mosaic",
