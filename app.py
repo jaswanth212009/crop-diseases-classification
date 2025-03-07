@@ -36,7 +36,22 @@ model_configs = {
             "rust", 
             "yellow_leaf"
         ]
-    }
+    },
+    "Wheat": {
+        "path": "wheat_disease_model.pt",
+        "labels": [
+            "root rot",
+            "leaf rust",
+            "stem rust",
+            "mildew",
+            "lead blotch",
+            "stripe rust",
+            "fusarium head blight",
+            "loose smut",
+            "aphids"
+        ]
+    }, 
+ 
 }
 
 # Load the selected model
